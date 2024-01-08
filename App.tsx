@@ -1,4 +1,4 @@
-import { Text, Button, View } from 'react-native';
+import { Text, } from 'react-native';
 
 
 const App = () => {
@@ -10,9 +10,8 @@ const App = () => {
   };
 
   return (
-    <>
       <Text>Addition is : {Addition3(10, 5)}</Text>  
-    </>
+    
   );
 };
 export default App;
